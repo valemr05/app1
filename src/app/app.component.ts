@@ -4,12 +4,13 @@ import { NuevoComponenteComponent } from './nuevo-componente/nuevo-componente.co
 import { InterpolacionComponent } from "./interpolacion/interpolacion.component";
 import { PadreComponent } from "./padre/padre.component";
 import { HijoComponent } from "./hijo/hijo.component";
+import { MostrarMensajeComponent } from "./mostrar-mensaje/mostrar-mensaje.component";
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NuevoComponenteComponent, InterpolacionComponent, PadreComponent, HijoComponent], //importar los nuevos componentes 
+  imports: [NuevoComponenteComponent, InterpolacionComponent, PadreComponent, HijoComponent, MostrarMensajeComponent], //importar los nuevos componentes
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
