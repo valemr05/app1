@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './replicador.component.css'
 })
 export class ReplicadorComponent {
-
+  texto: string = '';
+  actualizarTexto(event: Event) {
+    const elementoInput = event.target as HTMLInputElement;  // obtenemos el elemento input
+    this.texto = elementoInput.value;  //recuperamos el valor del input
+  }
 }
