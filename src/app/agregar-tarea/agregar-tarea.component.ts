@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './agregar-tarea.component.css'
 })
 export class AgregarTareaComponent {
+  tarea: string = '';
 
+  agregarTarea(nuevaTarea: string): void {
+    this.tarea = nuevaTarea;
+  }
+  
 }

@@ -19,5 +19,5 @@ import { AgregarTareaComponent } from './agregar-tarea/agregar-tarea.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'If en Angular';
+  title = 'Local Reference en Angular';
 }
